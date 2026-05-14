@@ -653,92 +653,92 @@ MonoBehaviour:
         m_CharlieConvolvePS: {fileID: 4800000, guid: 5685fd17e71045e4ca9fefca38a7c177, type: 3}
         m_GpuPrefixSumCS: {fileID: 7200000, guid: 76fcf27f72d24907b1846939a7a2d83f, type: 3}
         m_GpuSortCS: {fileID: 7200000, guid: e485b8d649234276ababbd36fcec8c1a, type: 3}
-        m_BilateralUpsampleCS: {fileID: 0}
-        m_TemporalFilterCS: {fileID: 0}
-        m_DiffuseDenoiserCS: {fileID: 0}
-        m_FurnaceTestCS: {fileID: 0}
-        m_ObjectIDPS: {fileID: 0}
-        m_ComputeThicknessPS: {fileID: 0}
-        m_CopyChannelCS: {fileID: 0}
-        m_ClearBuffer2D: {fileID: 0}
-        m_EncodeBC6HCS: {fileID: 0}
-        m_CubeToPanoPS: {fileID: 0}
-        m_BlitCubeTextureFacePS: {fileID: 0}
-        m_ClearUIntTextureCS: {fileID: 0}
-        m_Texture3DAtlasCS: {fileID: 0}
-        m_XrMirrorViewPS: {fileID: 0}
-        m_XrOcclusionMeshPS: {fileID: 0}
-        m_ContactShadowCS: {fileID: 0}
-        m_ScreenSpaceShadowPS: {fileID: 0}
-        m_ShadowClearPS: {fileID: 0}
-        m_EvsmBlurCS: {fileID: 0}
-        m_DebugHDShadowMapPS: {fileID: 0}
-        m_DebugLocalVolumetricFogAtlasPS: {fileID: 0}
-        m_MomentShadowsCS: {fileID: 0}
-        m_ShadowBlitPS: {fileID: 0}
-        m_DecalNormalBufferPS: {fileID: 0}
-        m_GTAOCS: {fileID: 0}
-        m_GTAOSpatialDenoiseCS: {fileID: 0}
-        m_GTAOTemporalDenoiseCS: {fileID: 0}
-        m_GTAOCopyHistoryCS: {fileID: 0}
-        m_GTAOBlurAndUpsample: {fileID: 0}
-        m_CopyAlphaCS: {fileID: 0}
-        m_NanKillerCS: {fileID: 0}
-        m_ExposureCS: {fileID: 0}
-        m_HistogramExposureCS: {fileID: 0}
-        m_ApplyExposureCS: {fileID: 0}
-        m_UberPostCS: {fileID: 0}
-        m_LutBuilder3DCS: {fileID: 0}
-        m_DepthOfFieldKernelCS: {fileID: 0}
-        m_DepthOfFieldCoCCS: {fileID: 0}
-        m_DepthOfFieldCoCReprojectCS: {fileID: 0}
-        m_DepthOfFieldDilateCS: {fileID: 0}
-        m_DepthOfFieldMipCS: {fileID: 0}
-        m_DepthOfFieldMipSafeCS: {fileID: 0}
-        m_DepthOfFieldPrefilterCS: {fileID: 0}
-        m_DepthOfFieldTileMaxCS: {fileID: 0}
-        m_DepthOfFieldGatherCS: {fileID: 0}
-        m_DepthOfFieldCombineCS: {fileID: 0}
-        m_DepthOfFieldPreCombineFarCS: {fileID: 0}
-        m_DepthOfFieldClearIndirectArgsCS: {fileID: 0}
-        m_PaniniProjectionCS: {fileID: 0}
-        m_DofCircleOfConfusion: {fileID: 0}
-        m_DofGatherCS: {fileID: 0}
-        m_DofCoCMinMaxCS: {fileID: 0}
-        m_DofMinMaxDilateCS: {fileID: 0}
-        m_DofCombineCS: {fileID: 0}
-        m_DofComputeSlowTilesCS: {fileID: 0}
-        m_DofComputeApertureShapeCS: {fileID: 0}
-        m_MotionBlurMotionVecPrepCS: {fileID: 0}
-        m_MotionBlurGenTileCS: {fileID: 0}
-        m_MotionBlurMergeTileCS: {fileID: 0}
-        m_MotionBlurNeighborhoodTileCS: {fileID: 0}
-        m_MotionBlurCS: {fileID: 0}
-        m_BloomPrefilterCS: {fileID: 0}
-        m_BloomBlurCS: {fileID: 0}
-        m_BloomUpsampleCS: {fileID: 0}
-        m_DepthValuesPS: {fileID: 0}
-        m_ColorResolvePS: {fileID: 0}
-        m_ResolveMotionVecPS: {fileID: 0}
-        m_FXAACS: {fileID: 0}
-        m_FinalPassPS: {fileID: 0}
-        m_ClearBlackPS: {fileID: 0}
-        m_SMAAPS: {fileID: 0}
-        m_TemporalAntialiasingPS: {fileID: 0}
-        m_SharpeningCS: {fileID: 0}
-        m_LensFlareDataDrivenPS: {fileID: 0}
-        m_LensFlareScreenSpacePS: {fileID: 0}
-        m_LensFlareMergeOcclusionCS: {fileID: 0}
-        m_DLSSBiasColorMaskPS: {fileID: 0}
-        m_CompositeUIAndOETFApplyPS: {fileID: 0}
-        m_ContrastAdaptiveSharpenCS: {fileID: 0}
-        m_EdgeAdaptiveSpatialUpsamplingCS: {fileID: 0}
-        m_VTFeedbackDownsample: {fileID: 0}
-        m_AccumulationCS: {fileID: 0}
-        m_BlitAndExposeCS: {fileID: 0}
-        m_AlphaInjectionPS: {fileID: 0}
-        m_ChromaKeyingPS: {fileID: 0}
-        m_CustomClearPS: {fileID: 0}
+        m_BilateralUpsampleCS: {fileID: 7200000, guid: 68e831c555284d741b985e05369f0e63, type: 3}
+        m_TemporalFilterCS: {fileID: 7200000, guid: 741979ff70f7bd6489fbcb464280ecff, type: 3}
+        m_DiffuseDenoiserCS: {fileID: 7200000, guid: b4ed2382141619f40af1f743a84ccaea, type: 3}
+        m_FurnaceTestCS: {fileID: 7200000, guid: 9c19385e40e70ea41811a942a46b04a3, type: 3}
+        m_ObjectIDPS: {fileID: -6465566751694194690, guid: 89daf81f8e8f6634da726cbca859ca38, type: 3}
+        m_ComputeThicknessPS: {fileID: 4800000, guid: 4d2c6daf0d4968748bb5b82d5016fdea, type: 3}
+        m_CopyChannelCS: {fileID: 7200000, guid: a4d45eda75e8e474dbe24a31f741f3b4, type: 3}
+        m_ClearBuffer2D: {fileID: 7200000, guid: fa9b66253270e9c47a67ae142f669eb4, type: 3}
+        m_EncodeBC6HCS: {fileID: 7200000, guid: aa922d239de60304f964e24488559eeb, type: 3}
+        m_CubeToPanoPS: {fileID: 4800000, guid: 595434cc3b6405246b6cd3086d0b6f7d, type: 3}
+        m_BlitCubeTextureFacePS: {fileID: 4800000, guid: d850d0a2481878d4bbf17e5126b04163, type: 3}
+        m_ClearUIntTextureCS: {fileID: 7200000, guid: d067ad4b88af51c498875426894aef76, type: 3}
+        m_Texture3DAtlasCS: {fileID: 7200000, guid: 81522e314a83afd4a8ed43bd00757051, type: 3}
+        m_XrMirrorViewPS: {fileID: 4800000, guid: e6255f98cf405eb45ab6f9006cf11e1f, type: 3}
+        m_XrOcclusionMeshPS: {fileID: 4800000, guid: 46a45b32bb110604fb36216b63bcdb81, type: 3}
+        m_ContactShadowCS: {fileID: 7200000, guid: 3e6900e06dc185a4380af4dacb4db0a4, type: 3}
+        m_ScreenSpaceShadowPS: {fileID: 4800000, guid: bfa43a48695613b4ea19c58858ae1a61, type: 3}
+        m_ShadowClearPS: {fileID: 4800000, guid: e3cab24f27741f44d8af1e94d006267c, type: 3}
+        m_EvsmBlurCS: {fileID: 7200000, guid: fb36979473602464fa32deacb9630c08, type: 3}
+        m_DebugHDShadowMapPS: {fileID: 4800000, guid: 93d40cc9a6e13994f86f576a624efa18, type: 3}
+        m_DebugLocalVolumetricFogAtlasPS: {fileID: 4800000, guid: 8371b763f09c7304889c22aa97ebdfd2, type: 3}
+        m_MomentShadowsCS: {fileID: 7200000, guid: 4dea53e2ff15ed0448817c2aa4246e53, type: 3}
+        m_ShadowBlitPS: {fileID: 4800000, guid: ca059f1af4587a24b9a9eed3b66cff0f, type: 3}
+        m_DecalNormalBufferPS: {fileID: 4800000, guid: fd532bf1795188c4daaa66ea798b8b0a, type: 3}
+        m_GTAOCS: {fileID: 7200000, guid: 6710b06492bd58c4bb8aec0fdc1fced3, type: 3}
+        m_GTAOSpatialDenoiseCS: {fileID: 7200000, guid: 2cb33c21587d12b4388d7866ab6c65f6, type: 3}
+        m_GTAOTemporalDenoiseCS: {fileID: 7200000, guid: 31e0ca4c210f97c468037d11a5b832bb, type: 3}
+        m_GTAOCopyHistoryCS: {fileID: 7200000, guid: 7f43be57ffd12ff469d4fc175c00c4b4, type: 3}
+        m_GTAOBlurAndUpsample: {fileID: 7200000, guid: 9eb1abde882538a4ea46fa23e49ab9fa, type: 3}
+        m_CopyAlphaCS: {fileID: 7200000, guid: c2c7eb6611725264187721ef9df0354b, type: 3}
+        m_NanKillerCS: {fileID: 7200000, guid: 83982f199acf927499576a99abc9bea9, type: 3}
+        m_ExposureCS: {fileID: 7200000, guid: 976d7bce54fae534fb9ec67e9c18570c, type: 3}
+        m_HistogramExposureCS: {fileID: 7200000, guid: 222da48299136f34b8e3fb75ae9f8ac7, type: 3}
+        m_ApplyExposureCS: {fileID: 7200000, guid: 1a6fea1dc099b984d8f2b27d504dc096, type: 3}
+        m_UberPostCS: {fileID: 7200000, guid: f1bf52f7c71bffd4f91e6cd90d12a4f7, type: 3}
+        m_LutBuilder3DCS: {fileID: 7200000, guid: 37f2b1b0ecd6f1c439e4c1b4f2fdb524, type: 3}
+        m_DepthOfFieldKernelCS: {fileID: 7200000, guid: 7869415cc3e4eaa4d82ac21a752a2780, type: 3}
+        m_DepthOfFieldCoCCS: {fileID: 7200000, guid: 048b235b54fbfaa4d80ec85ea847d4f8, type: 3}
+        m_DepthOfFieldCoCReprojectCS: {fileID: 7200000, guid: 4980decaa3878d6448569489f5fc7931, type: 3}
+        m_DepthOfFieldDilateCS: {fileID: 7200000, guid: 1c93af4338c0c1b42b92464992eebc10, type: 3}
+        m_DepthOfFieldMipCS: {fileID: 7200000, guid: d3ef53de069ded64e8377cba6eb951fa, type: 3}
+        m_DepthOfFieldMipSafeCS: {fileID: 7200000, guid: 2d24ee7b2c804d947a5c371c12ed46bd, type: 3}
+        m_DepthOfFieldPrefilterCS: {fileID: 7200000, guid: f2b89d19910854346b792fe7177ce634, type: 3}
+        m_DepthOfFieldTileMaxCS: {fileID: 7200000, guid: 84f84585ea8a7a849bea4a581adb93a7, type: 3}
+        m_DepthOfFieldGatherCS: {fileID: 7200000, guid: 486be52dddc4e054fb10a7b9b78788c2, type: 3}
+        m_DepthOfFieldCombineCS: {fileID: 7200000, guid: c8049ca85c4c7d047ba28f34d800c663, type: 3}
+        m_DepthOfFieldPreCombineFarCS: {fileID: 7200000, guid: 3b4a2acd03d1ce2438d93c325d588735, type: 3}
+        m_DepthOfFieldClearIndirectArgsCS: {fileID: 7200000, guid: 69905045e1d0a65458b205d6ab55502b, type: 3}
+        m_PaniniProjectionCS: {fileID: 7200000, guid: 0ddbf72c8fbb6e44b983f470c8384ef6, type: 3}
+        m_DofCircleOfConfusion: {fileID: 7200000, guid: 75332b7b315c80d4babe506820aa0bfd, type: 3}
+        m_DofGatherCS: {fileID: 7200000, guid: 1e6b16a7970a1494db74b1d3d007d1cc, type: 3}
+        m_DofCoCMinMaxCS: {fileID: 7200000, guid: c70dd492c3d2fe94589d6ca8d4e37915, type: 3}
+        m_DofMinMaxDilateCS: {fileID: 7200000, guid: 757a3f81b35177b44b2b178909b49172, type: 3}
+        m_DofCombineCS: {fileID: 7200000, guid: d9b940a90a2d0884f94990a0dde43a53, type: 3}
+        m_DofComputeSlowTilesCS: {fileID: 7200000, guid: b89f86a76de81ee42ae16daad78eb382, type: 3}
+        m_DofComputeApertureShapeCS: {fileID: 7200000, guid: dd5acecb27e20334fa3be332e85172df, type: 3}
+        m_MotionBlurMotionVecPrepCS: {fileID: 7200000, guid: ed9438fa777911d48933402087203b15, type: 3}
+        m_MotionBlurGenTileCS: {fileID: 7200000, guid: 336e1fdbb3a1b8647b06208415f87804, type: 3}
+        m_MotionBlurMergeTileCS: {fileID: 7200000, guid: cd14ddf849edeed43b0e3ccf66023038, type: 3}
+        m_MotionBlurNeighborhoodTileCS: {fileID: 7200000, guid: 5ea9865df3e53b448856785b88f8e7b9, type: 3}
+        m_MotionBlurCS: {fileID: 7200000, guid: 2af5c49c7865edb4b823826970ec176a, type: 3}
+        m_BloomPrefilterCS: {fileID: 7200000, guid: 243b24008041aaa4a91800690f63c684, type: 3}
+        m_BloomBlurCS: {fileID: 7200000, guid: 133a68380d324de4ea8d3ff8657b02d8, type: 3}
+        m_BloomUpsampleCS: {fileID: 7200000, guid: 5dbb0ac12cb11f84084b7e5633481bd1, type: 3}
+        m_DepthValuesPS: {fileID: 4800000, guid: 6e6a4a3dbb788234594aa74f2d6aeb6f, type: 3}
+        m_ColorResolvePS: {fileID: 4800000, guid: dd7047092f3c82b40b3a07868f9c4de2, type: 3}
+        m_ResolveMotionVecPS: {fileID: 4800000, guid: ea18ca9826385e943979c46cf98968cc, type: 3}
+        m_FXAACS: {fileID: 7200000, guid: 1535d29f35ea86b4282b6ca652002e2a, type: 3}
+        m_FinalPassPS: {fileID: 4800000, guid: 5ac9ef0c50282754b93c7692488e7ee7, type: 3}
+        m_ClearBlackPS: {fileID: 4800000, guid: 3330c1503ea8c6d4d9408df3f64227eb, type: 3}
+        m_SMAAPS: {fileID: 4800000, guid: 9655f4aa89a469c49aceaceabf9bc77b, type: 3}
+        m_TemporalAntialiasingPS: {fileID: 4800000, guid: 3dd9fd928fdb83743b1f27d15df22179, type: 3}
+        m_SharpeningCS: {fileID: 7200000, guid: 667941138a753f447bad3bf94052f590, type: 3}
+        m_LensFlareDataDrivenPS: {fileID: 4800000, guid: 85330b3de0cfebc4ba78b2d61b1a2899, type: 3}
+        m_LensFlareScreenSpacePS: {fileID: 4800000, guid: 97abfc9f0525e1849b417eaae10f0329, type: 3}
+        m_LensFlareMergeOcclusionCS: {fileID: 7200000, guid: 07492750f384d9a4da9aaf5d2feeed4a, type: 3}
+        m_DLSSBiasColorMaskPS: {fileID: 4800000, guid: 017a05924c0b0484ca29717ed0c60343, type: 3}
+        m_CompositeUIAndOETFApplyPS: {fileID: 4800000, guid: 08b7ad21d2b8e9142b730b22d7355821, type: 3}
+        m_ContrastAdaptiveSharpenCS: {fileID: 7200000, guid: 560896aec2f412c48995be35551a4ac6, type: 3}
+        m_EdgeAdaptiveSpatialUpsamplingCS: {fileID: 7200000, guid: f054fa9fe2c85bb42b9489e2f9ffb643, type: 3}
+        m_VTFeedbackDownsample: {fileID: 7200000, guid: 32d963548086c2c439aeb23a93e9a00a, type: 3}
+        m_AccumulationCS: {fileID: 7200000, guid: ed80add7a217efa468d137d6f7c668f3, type: 3}
+        m_BlitAndExposeCS: {fileID: 7200000, guid: 4b9a355e064de034dbfafe4583ba766b, type: 3}
+        m_AlphaInjectionPS: {fileID: 4800000, guid: 4edd96259a5e8b44c90479928f0cd11e, type: 3}
+        m_ChromaKeyingPS: {fileID: 4800000, guid: 49feb6b111e82ec4eb6d3d08e4b6903e, type: 3}
+        m_CustomClearPS: {fileID: 4800000, guid: 9cef3686fa32c8840947ed99b561195c, type: 3}
     - rid: 8622835610532184265
       type: {class: HDRenderingLayersLimitSettings, ns: UnityEditor.Rendering.HighDefinition, asm: Unity.RenderPipelines.HighDefinition.Editor}
       data:
