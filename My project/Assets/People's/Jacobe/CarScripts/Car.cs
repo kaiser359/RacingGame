@@ -171,7 +171,7 @@ public class Car : MonoBehaviour
                 w.skidTrailGameObject.transform.localPosition = Vector3.zero;
                 w.skidTrailGameObject.transform.localRotation = Quaternion.identity;
                 w.skidTrailGameObject.transform.parent = null;
-
+                
                 w.skidTrail = w.skidTrailGameObject.GetComponent<TrailRenderer>();
                 if (w.skidTrail != null)
                     w.skidTrail.emitting = false;
@@ -207,11 +207,11 @@ public class Car : MonoBehaviour
         for (int i = 0; i < wheels.Length; i++)
         {
             var w = wheels[i];
-
+            
             // Ensure no NaN values from previous frames
             if (float.IsNaN(w.slip) || float.IsInfinity(w.slip))
                 w.slip = 0f;
-
+            
             // High-performance F1 traction control
             if (throttleAssist)
             {
@@ -224,7 +224,7 @@ public class Car : MonoBehaviour
                     // Convert overshoot to a reduction factor (aggressive multiplier)
                     float reduction = Mathf.Clamp01(overshoot * 2.0f);
                     // Aggressively increase TCS reduction to cut power fast
-                    w.tcsReduction = Mathf.Lerp(w.tcsReduction, 1, reduction / 5f);
+                    w.tcsReduction = Mathf.Lerp(w.tcsReduction, 1, reduction/5f);
                 }
                 else if (w.slip < targetSlip - slipTolerance)
                 {
@@ -240,7 +240,7 @@ public class Car : MonoBehaviour
             float s = Mathf.Clamp01(w.slip);
             w.input.x = Mathf.Lerp(w.input.x, userInput.x, Time.deltaTime * 60f);
             if (s > 0.3f && s < 1.5f && steeringAssist) w.input.x = Mathf.Lerp(w.input.x, 0, s * Time.deltaTime * steeringAssistStrength);
-
+            
             // Apply throttle with TCS - more responsive for F1
             float finalThrottle = userInput.y * (1f - w.tcsReduction);
             if (float.IsNaN(finalThrottle) || float.IsInfinity(finalThrottle))
