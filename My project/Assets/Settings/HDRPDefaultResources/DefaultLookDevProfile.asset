@@ -62,7 +62,6 @@ MonoBehaviour:
     m_Value:
       serializedVersion: 2
       m_Bits: 4294967295
-<<<<<<< HEAD
   specularOcclusion:
     m_OverrideState: 0
     m_Value: 0.5
@@ -72,8 +71,6 @@ MonoBehaviour:
   receiverMotionRejection:
     m_OverrideState: 0
     m_Value: 1
-=======
->>>>>>> parent of 64b9686 (no message)
   m_StepCount:
     m_OverrideState: 0
     m_Value: 6
@@ -206,12 +203,9 @@ MonoBehaviour:
   mode:
     m_OverrideState: 1
     m_Value: 1
-<<<<<<< HEAD
   useFullACES:
     m_OverrideState: 0
     m_Value: 0
-=======
->>>>>>> parent of 64b9686 (no message)
   toeStrength:
     m_OverrideState: 0
     m_Value: 0
@@ -236,7 +230,6 @@ MonoBehaviour:
   lutContribution:
     m_OverrideState: 0
     m_Value: 1
-<<<<<<< HEAD
   neutralHDRRangeReductionMode:
     m_OverrideState: 0
     m_Value: 2
@@ -264,5 +257,3 @@ MonoBehaviour:
   maxNits:
     m_OverrideState: 0
     m_Value: 1000
-=======
->>>>>>> parent of 64b9686 (no message)
