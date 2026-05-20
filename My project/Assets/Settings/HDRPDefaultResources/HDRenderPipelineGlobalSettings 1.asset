@@ -507,7 +507,7 @@ MonoBehaviour:
       type: {class: HDRPDefaultVolumeProfileSettings, ns: UnityEngine.Rendering.HighDefinition, asm: Unity.RenderPipelines.HighDefinition.Runtime}
       data:
         m_Version: 0
-        m_VolumeProfile: {fileID: 11400000, guid: 56b098fe14ff921498caae2d80015cd9, type: 2}
+        m_VolumeProfile: {fileID: 11400000, guid: a17b09af219c8bd4d8631b79634095cb, type: 2}
     - rid: 8622835610532184262
       type: {class: HDRPRayTracingResources, ns: UnityEngine.Rendering.HighDefinition, asm: Unity.RenderPipelines.HighDefinition.Runtime}
       data:
